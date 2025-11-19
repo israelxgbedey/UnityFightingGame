@@ -1,36 +1,32 @@
-Unity Editor version:    6000.0.57f1 (b7b9860b7bbd)
-Branch:                  6000.0/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 15.7 (Build 24G222)
-Darwin version:          24.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32492 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-19T00:26:58Z
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/israelgbedey/Documents/GitHub/FPSKIT/fighting
+C:/Users/Ikhri/OneDrive/Documents/GitHub/UnityFightingGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50931
+55751
 -job-worker-count
-3
+11
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name AssetImport
-Successfully changed project path to: /Users/israelgbedey/Documents/GitHub/FPSKIT/fighting
-/Users/israelgbedey/Documents/GitHub/FPSKIT/fighting
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Ikhri/OneDrive/Documents/GitHub/UnityFightingGame
+C:/Users/Ikhri/OneDrive/Documents/GitHub/UnityFightingGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,13 +62,13 @@ Successfully changed project path to: /Users/israelgbedey/Documents/GitHub/FPSKI
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704584572928]  Target information:
+Player connection [7760]  Target information:
 
-Player connection [140704584572928]  * "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2795112996 [EditorId] 2795112996 [Version] 1048832 [Id] OSXEditor(0,Israels-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [7760]  * "[IP] 10.6.180.103 [Port] 0 [Flags] 2 [Guid] 2405815972 [EditorId] 2405815972 [Version] 1048832 [Id] WindowsEditor(7,Owner-Reborn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [140704584572928] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704584572928] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [7760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -83,59 +79,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/israelgbedey/Documents/GitHub/FPSKIT/fighting/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ikhri/OneDrive/Documents/GitHub/UnityFightingGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Color LCD preferred device: AMD Radeon RX Baffin Prototype (high power)
-Metal devices available: 2
-0: AMD Radeon RX Baffin Prototype (high power)
-1: Intel(R) HD Graphics 630 (low power)
-Using device AMD Radeon RX Baffin Prototype (high power)
-Initializing Metal device caps: AMD Radeon RX Baffin Prototype
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8180
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56849
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002420 seconds.
-- Loaded All Assemblies, in  0.857 seconds
-Native extension for OSXStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002479 seconds.
+- Loaded All Assemblies, in  0.332 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.648 seconds
-Domain Reload Profiling: 1505ms
-	BeginReloadAssembly (346ms)
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 624ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (346ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (298ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (648ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
+		SetupLoadedEditorAssemblies (265ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (65ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,1517 +140,203 @@ Domain Reload Profiling: 1505ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.478 seconds
+- Loaded All Assemblies, in  0.763 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.405 seconds
-Domain Reload Profiling: 2883ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (1087ms)
-		LoadAssemblies (707ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (477ms)
-			TypeCache.Refresh (359ms)
-				TypeCache.ScanAssembly (336ms)
-			BuildScriptInfoCaches (91ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1406ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (728ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1133ms)
+		SetupLoadedEditorAssemblies (596ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (229ms)
-			ProcessInitializeOnLoadAttributes (644ms)
-			ProcessInitializeOnLoadMethodAttributes (246ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6700 unused Assets / (4.5 MB). Loaded Objects now: 7405.
-Memory consumption went from 143.4 MB to 138.9 MB.
-Total: 14.409552 ms (FindLiveObjects: 1.457893 ms CreateObjectMapping: 1.438279 ms MarkObjects: 7.706581 ms  DeleteObjects: 3.805076 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6699 unused Assets / (5.0 MB). Loaded Objects now: 7405.
+Memory consumption went from 148.6 MB to 143.6 MB.
+Total: 14.801000 ms (FindLiveObjects: 0.832100 ms CreateObjectMapping: 1.456800 ms MarkObjects: 7.990600 ms  DeleteObjects: 4.519300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17906.484343 seconds.
-  path: Assets/Animation.cs
-  artifactKey: Guid(11edc16e480504d2d8eb22ef83e97ddc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation.cs using Guid(11edc16e480504d2d8eb22ef83e97ddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73727ece04ae2e3ce8188feef730d7f0') in 0.336776832 seconds
+  Time since last request: 1654.257349 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73258d2a0164082a0def4806f88e2269') in 0.0103836 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Background/IMG_0181.PNG
-  artifactKey: Guid(7dcb7b14c07061749a6fc77570b9a2d7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Background/IMG_0181.PNG using Guid(7dcb7b14c07061749a6fc77570b9a2d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0eacb23574ff57129f1b9ad13b7a402') in 0.190160812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Deep Caves Assets/Cave 2/Cave_Biome2Decs.png
-  artifactKey: Guid(2ace9a8ac6dbf3844b983378e71a3cc4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 2/Cave_Biome2Decs.png using Guid(2ace9a8ac6dbf3844b983378e71a3cc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce1421c6d25d4020a3c39eb4e6522894') in 0.019538779 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBg_4.png
-  artifactKey: Guid(fa5cb382b103fa240bde047b8c1d3a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBg_4.png using Guid(fa5cb382b103fa240bde047b8c1d3a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7bb07e37ebddcfa7e7530bf6249da3e') in 0.018763169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampPack2.png
-  artifactKey: Guid(4d33f1aa7cf312b4c9f09b998744895e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampPack2.png using Guid(4d33f1aa7cf312b4c9f09b998744895e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2384112eb367f672a5fd25b0fc5bdf04') in 0.018457648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Idle.png
-  artifactKey: Guid(90c7332c857b6b043bad30766e14a946) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Idle.png using Guid(90c7332c857b6b043bad30766e14a946) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dc44d9a78540c30cc73aa5bfad0a292') in 0.046431758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_1.png
-  artifactKey: Guid(a22dd364e2770a04b9ace96821f24d6e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_1.png using Guid(a22dd364e2770a04b9ace96821f24d6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '676811088fd1d11bdcc516252d3668dc') in 0.019459408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Distant Forest Assets/Green Forest/ForestBgLightGreen_3.png
-  artifactKey: Guid(bc7e22974dfe74f4a9eec536705c905b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Green Forest/ForestBgLightGreen_3.png using Guid(bc7e22974dfe74f4a9eec536705c905b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '837775b6345a640813e13ce3f697cc1a') in 0.018855429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '740d2173dedcb453cf62c81f3a32aea6') in 0.106558687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Evil Wizard 3/Animations/Attack_0.controller
-  artifactKey: Guid(fff5ab8fb04401c4abd3eeb2982ff5eb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Attack_0.controller using Guid(fff5ab8fb04401c4abd3eeb2982ff5eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3690e220f6216ac2332d084606292e30') in 0.009987074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Evil Wizard 3/Animations/Walk.anim
-  artifactKey: Guid(8aa263c46f56b2d458acc2949b0b1329) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Walk.anim using Guid(8aa263c46f56b2d458acc2949b0b1329) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0abbf887f911a1c43cfedcc2096fb3eb') in 0.01560869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampPack1.png
-  artifactKey: Guid(3363509718ff4444e954854ef656d7cb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampPack1.png using Guid(3363509718ff4444e954854ef656d7cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ddac14726dfa2cb5afc9448f11249c6') in 0.015517164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Walk.png
-  artifactKey: Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Walk.png using Guid(05e0a75274ead9e47b322de0fea771d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eefaf672cd9f439e4b207b010c3ce76') in 0.030621961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Running.anim
-  artifactKey: Guid(42c6cebb113e2b7448dde6e36bdb9c58) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Running.anim using Guid(42c6cebb113e2b7448dde6e36bdb9c58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89132da5e160959d1ff41d8f2b972b18') in 0.007942796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Evil Wizard 3/Animations/Walk_0.controller
-  artifactKey: Guid(17bb526a89635284f959b51a2b591d30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Walk_0.controller using Guid(17bb526a89635284f959b51a2b591d30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '573772c63c5e59ec77c1ba02a3656f3f') in 0.005078212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Martial Hero/Sprites/Idle.png
-  artifactKey: Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Sprites/Idle.png using Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '621d99a6dc805bb3873f4ce71e893998') in 0.034498805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Martial Hero/Sprites/Death.png
-  artifactKey: Guid(1db9a306592ac9545975fcdd51459943) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Sprites/Death.png using Guid(1db9a306592ac9545975fcdd51459943) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9753f6afa76a6ae863109758e0dad5a7') in 0.02927235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Distant Forest Assets/Green Forest/ForestBgGreen_3.png
-  artifactKey: Guid(374062332762c22458f8723c56e0629c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Green Forest/ForestBgGreen_3.png using Guid(374062332762c22458f8723c56e0629c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8842cef1f9759069e5e004228537e73') in 0.016539222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Martial Hero/Demo/Scene Demo.unity
-  artifactKey: Guid(6dd1420c08f52a847abe76fbb80b30a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Demo/Scene Demo.unity using Guid(6dd1420c08f52a847abe76fbb80b30a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24b9fbca4457affd771f2a9dba121f04') in 0.004465697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Deep Caves Assets/Demo Scene/Cave1.unity
-  artifactKey: Guid(1a77cbce52d32d742b0cd29e4cb3d5ed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Demo Scene/Cave1.unity using Guid(1a77cbce52d32d742b0cd29e4cb3d5ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3603fcd91303082b0e6dc7f736fa49e9') in 0.005663788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15a62648c4470c9b749d8937407588b1') in 0.017305593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a47306be7b746a8f396467c133dad95f') in 0.005813415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Demo/Scripts/GroundCollider.cs
-  artifactKey: Guid(f63dd670107a39549b9e12ae649c06d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Demo/Scripts/GroundCollider.cs using Guid(f63dd670107a39549b9e12ae649c06d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59c2300eddecfebad5f4cadb5c28c092') in 0.006084912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Shooting.anim
-  artifactKey: Guid(a8ab5878d5eb1184884fe1adf4170fac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Shooting.anim using Guid(a8ab5878d5eb1184884fe1adf4170fac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1edd5aa8e9b49d0dbd2c5506e1c06f0') in 0.007243664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Animations/Wooden Aarakocra Attack 2 Animation.anim
-  artifactKey: Guid(53da2f7d694c1ca44b95d2c15ed2eff5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Animations/Wooden Aarakocra Attack 2 Animation.anim using Guid(53da2f7d694c1ca44b95d2c15ed2eff5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2104b1c9b632109d06ff7380d3de6f48') in 0.007841153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Martial Hero/Sprites/Attack1.png
-  artifactKey: Guid(c50b517797d93614aac4ca58aaf97355) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Sprites/Attack1.png using Guid(c50b517797d93614aac4ca58aaf97355) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '526dba967adc82dda045a801b4bfb3d2') in 0.032026896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Falling.anim
-  artifactKey: Guid(dbb10f3113da50e458821410616919da) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Falling.anim using Guid(dbb10f3113da50e458821410616919da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4f7e6305786ec9ffda8a27d0a795be4') in 0.007077646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Projectile/Explode.png
-  artifactKey: Guid(73d1bcfc9eeac7a48a4cffb49a5b635e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Projectile/Explode.png using Guid(73d1bcfc9eeac7a48a4cffb49a5b635e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fc17a8ebb9ff51c79542bbad0e6a625') in 0.028245598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Martial Hero/Sprites/Fall.png
-  artifactKey: Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Sprites/Fall.png using Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '614f90bd4666ca15d993452f7aaf0c86') in 0.023226525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Distant Forest Assets/Green Forest/ForestBgGreen_2.png
-  artifactKey: Guid(463454a640eb5dc41945ef5ad77106a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Green Forest/ForestBgGreen_2.png using Guid(463454a640eb5dc41945ef5ad77106a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98116f2709fd79f98a2b193071862c37') in 0.027434049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Deep Caves Assets/Cave 3/Cave_Biome3.png
-  artifactKey: Guid(9f976424af012ca48a576b675ea521a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 3/Cave_Biome3.png using Guid(9f976424af012ca48a576b675ea521a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbd6511a2826a660cfe789ee4dc0df4c') in 0.017793023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0000.png
-  artifactKey: Guid(5bd3dbc587bf5fd45a13fa7f59997a3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0000.png using Guid(5bd3dbc587bf5fd45a13fa7f59997a3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbd372fe2fb5b1696b37adc88d3151ce') in 0.02008838 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0004.png
-  artifactKey: Guid(8c09858b40fcb9b4b94045678642a2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0004.png using Guid(8c09858b40fcb9b4b94045678642a2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46b024a23a297b032c8887e5c3a88c1f') in 0.028954106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Background/ExampleScene.unity
-  artifactKey: Guid(4a0336975060d63449cd9587b5514976) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Background/ExampleScene.unity using Guid(4a0336975060d63449cd9587b5514976) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8e3cca6f662ca2374af9cd3359de911') in 0.015725931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Deep Caves Assets/Cave 2/Biome2Bg4.png
-  artifactKey: Guid(feb0d194e2288f04285ba7c63c3a123a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 2/Biome2Bg4.png using Guid(feb0d194e2288f04285ba7c63c3a123a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '260290b08b6147416abe067706ab90df') in 0.046889541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Deep Caves Assets/Cave 3/Biome3Bg3.png
-  artifactKey: Guid(40f3c5414a3f3d441ac9059365536900) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 3/Biome3Bg3.png using Guid(40f3c5414a3f3d441ac9059365536900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43e7ea0a58001862154aaf21724ae3af') in 0.039715045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0006.png
-  artifactKey: Guid(4214c4e2147878845acf622c37a90052) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0006.png using Guid(4214c4e2147878845acf622c37a90052) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4165013c62ee540e90bbc095ccdf8d5') in 0.028202983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0002.png
-  artifactKey: Guid(cb08317f6d20ec24aaea865ab68caaef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0002.png using Guid(cb08317f6d20ec24aaea865ab68caaef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd71148845287cbeba22ffcbc37a64b6') in 0.026967625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0004.png
-  artifactKey: Guid(562c4bb07a8e01b49a6a829604ed7482) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0004.png using Guid(562c4bb07a8e01b49a6a829604ed7482) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca1b5114b618611a00ce66beba243e55') in 0.036890965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_2.png
-  artifactKey: Guid(6d236423a1ea189478c041f4c4625d08) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_2.png using Guid(6d236423a1ea189478c041f4c4625d08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '099fef4d9178810d0c2fd37346b615a4') in 0.029935196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Distant Forest Assets/Taiga Forest/TaigaBg_3.png
-  artifactKey: Guid(b2b3a660a0b03784e9476b235dcd2bbd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Taiga Forest/TaigaBg_3.png using Guid(b2b3a660a0b03784e9476b235dcd2bbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be145e4a7090c935487b95fd702d3f7a') in 0.022635564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/0.png
-  artifactKey: Guid(ee3a9c07ca23d18458dde9d1892a6c4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/0.png using Guid(ee3a9c07ca23d18458dde9d1892a6c4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f1c0ed6397d6eab3e1898df095cf94') in 0.073608842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/2.png
-  artifactKey: Guid(b3571c894b8d5464a8f16742364286c1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/2.png using Guid(b3571c894b8d5464a8f16742364286c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a43bfb84ac423b824b67ecfab9d36fc5') in 0.050175007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '803bd40ae89aacf4f5532e409c06632d') in 0.300548508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/2.png
-  artifactKey: Guid(e99b98709084f0545a3ac15515dd8b83) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/2.png using Guid(e99b98709084f0545a3ac15515dd8b83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e804491fa3d5d15f34e3e37fbbe762f6') in 0.045778789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Distant Forest Assets/Taiga Forest/TaigaBg_2.png
-  artifactKey: Guid(37627e03d6f221a4188f64e377dd4e1f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Taiga Forest/TaigaBg_2.png using Guid(37627e03d6f221a4188f64e377dd4e1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb9a21070c3025c12a37561b4f4a6ebf') in 0.014275321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(b2b6e45c9a4994e1299ec63c28734bb9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/New Terrain.asset using Guid(b2b6e45c9a4994e1299ec63c28734bb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d158f1fe5fcc885168fbda8888e7338') in 0.015069452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Attack_Whip.anim
-  artifactKey: Guid(b66704410506552478169dc9c9ae38f2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Attack_Whip.anim using Guid(b66704410506552478169dc9c9ae38f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07a1388a98cd85c26e0dd28c8a622728') in 0.010370747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/FollowPlayer.cs
-  artifactKey: Guid(39d1c5771ebfa413586d14d0f47ac067) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/FollowPlayer.cs using Guid(39d1c5771ebfa413586d14d0f47ac067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbbcdc2078b0852941e3b6909504c417') in 0.004938726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Jumping.anim
-  artifactKey: Guid(ef7b2dc25c560934b9e6f756dadaeb6c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Jumping.anim using Guid(ef7b2dc25c560934b9e6f756dadaeb6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b452c58a26b2028e0bc6d4ad43e8061a') in 0.007633533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Evil Wizard 3/Animations/Idle_0.controller
-  artifactKey: Guid(61eaf712032c2aa46ad28fbd321a9df9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Idle_0.controller using Guid(61eaf712032c2aa46ad28fbd321a9df9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cc3d23ac51ba43dc37edda089e5dde7') in 0.006547624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/11.png
-  artifactKey: Guid(c286e0d3fa1220044a0943fbd6a9ef04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/11.png using Guid(c286e0d3fa1220044a0943fbd6a9ef04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f81be193689ca98c7d93ea1777739d9b') in 0.047422392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_4.png
-  artifactKey: Guid(f8d55e0c05d66014ebda9528d1a48d30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_4.png using Guid(f8d55e0c05d66014ebda9528d1a48d30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50f1cf78f030a3a1524a57c71364a35d') in 0.024674965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0006.png
-  artifactKey: Guid(2859a56e9f8c4254482864c1e5fd05db) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0006.png using Guid(2859a56e9f8c4254482864c1e5fd05db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dbb0dab327df97bb6ec295ba8a421ad') in 0.017432234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/2D Pixel art pack - Rousette/Art/bubble3.png
-  artifactKey: Guid(0543191e0dd53064f97c9d1758f282c1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D Pixel art pack - Rousette/Art/bubble3.png using Guid(0543191e0dd53064f97c9d1758f282c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5b7a9b387b950aa9e9379d38c9effa4') in 0.020870904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Evil Wizard 3/Animations/Run_0.controller
-  artifactKey: Guid(059ee3c7cb0b10e4da6fd0105ded0a02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Run_0.controller using Guid(059ee3c7cb0b10e4da6fd0105ded0a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5e3a9788ca200cc2d6d56c5685528d9') in 0.005291207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Background/FOREGROUND.PNG
-  artifactKey: Guid(cf130608343bacb419fd7af560b08438) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Background/FOREGROUND.PNG using Guid(cf130608343bacb419fd7af560b08438) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '362c57faea7bfdcf503ea4ed8f55a348') in 0.040109122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Deep Caves Assets/Cave 2/Biome2Bg2.png
-  artifactKey: Guid(f79e1c7a49356b947b7756b9ad0a6f02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 2/Biome2Bg2.png using Guid(f79e1c7a49356b947b7756b9ad0a6f02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b008bd38b0fd44021b176b14881df1f8') in 0.021229529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Demo/Prefabs/CobraRobot_Enemy.prefab
-  artifactKey: Guid(49d2a81758b579341b762bd7b234bf4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Demo/Prefabs/CobraRobot_Enemy.prefab using Guid(49d2a81758b579341b762bd7b234bf4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b9ce140f279200a154e02ab30294ae4') in 0.133059822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/5.png
-  artifactKey: Guid(0fb014e19ce4ba242b6f2aa32a7c55ef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/5.png using Guid(0fb014e19ce4ba242b6f2aa32a7c55ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bde287a3431a4c291f12350c470d8cf3') in 0.049945594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/7.png
-  artifactKey: Guid(acc90e626617cba4d9c88e3d313910d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/7.png using Guid(acc90e626617cba4d9c88e3d313910d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc75668b29548cbf8626fa276fd36e1c') in 0.047468985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Distant Forest Assets/Taiga Forest/TaigaBg_4.png
-  artifactKey: Guid(0a29b3286bbbe2f48aa7832458b4c185) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Taiga Forest/TaigaBg_4.png using Guid(0a29b3286bbbe2f48aa7832458b4c185) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c7c1fae4f700d88eb9a57f7607ec940') in 0.017571275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Background/SKY_NO_SUN.PNG
-  artifactKey: Guid(2f87a8dccd4f7dd4ead1a62a9af05fa1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Background/SKY_NO_SUN.PNG using Guid(2f87a8dccd4f7dd4ead1a62a9af05fa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53bd355b7d06c5f002868bdcdd5355ee') in 0.034609268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/4.png
-  artifactKey: Guid(9e0db3480ba3b184e8d49fa228307294) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/4.png using Guid(9e0db3480ba3b184e8d49fa228307294) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '156ce672f41c878208702e29eeba6f47') in 0.03556021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/13.png
-  artifactKey: Guid(6942fa5b016478f4fa1a3c3dbfcdae69) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/13.png using Guid(6942fa5b016478f4fa1a3c3dbfcdae69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42be957b9821a5e0c3fbc53fa11ecd33') in 0.051576742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/2D Pixel art pack - Rousette/BGrousette2160x1080.png
-  artifactKey: Guid(bd8600f8b8a7e0841bc40ff2d0ac2f0f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D Pixel art pack - Rousette/BGrousette2160x1080.png using Guid(bd8600f8b8a7e0841bc40ff2d0ac2f0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '338192c786cf26c00efc7cda6ac09ff5') in 0.020139447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/10.png
-  artifactKey: Guid(548a98f2285457043a526bf29619ce6a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/10.png using Guid(548a98f2285457043a526bf29619ce6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10a16fd5be7e033a7f0d994b29258781') in 0.04469925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Martial Hero/Animations/Martial Hero.controller
-  artifactKey: Guid(4f6fccd708afd8446b750eec3e30188d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Animations/Martial Hero.controller using Guid(4f6fccd708afd8446b750eec3e30188d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfa0b99d0558d0be8a96a91b11960a2c') in 0.00578284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Evil Wizard 3/Animations/Projectile.anim
-  artifactKey: Guid(66ec6eed60b699e45bd24fcec5d5550a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Projectile.anim using Guid(66ec6eed60b699e45bd24fcec5d5550a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e34a6348cab0a548a4113bdd3ec0aca') in 0.006783286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0010.png
-  artifactKey: Guid(4a1bec90498223e41abfa9c9f42201d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0010.png using Guid(4a1bec90498223e41abfa9c9f42201d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e31bbe63eed794d110ed4a5cdd47ffc') in 0.017600823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/5.png
-  artifactKey: Guid(9cd5f760e472535448784bbc8c00ea39) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/5.png using Guid(9cd5f760e472535448784bbc8c00ea39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2ae629203d94b53a92e3d7dc110a135') in 0.04457365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/3.png
-  artifactKey: Guid(9b513ab3b17efb340a39defab9b1bacc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/3.png using Guid(9b513ab3b17efb340a39defab9b1bacc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45f4d7e7862afad34d4f5f39151627fb') in 0.049661135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Jumping/3.png
-  artifactKey: Guid(f63f223d1469c834fb92e5e8023457c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Jumping/3.png using Guid(f63f223d1469c834fb92e5e8023457c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc14ac533d703bf972a7af57d4b69e42') in 0.041559912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/2.png
-  artifactKey: Guid(b8837d390787c4544a92619494655950) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/2.png using Guid(b8837d390787c4544a92619494655950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58e4a2376714e80bad3d785d7223e8e8') in 0.040291662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Death.png
-  artifactKey: Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Death.png using Guid(e1b788b69a612a34ab2b3f7302e36fec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd316dcb07746602f18ccdf319e019bf5') in 0.051056162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Demo/Images/CobraRobot_Keymapping_image.png
-  artifactKey: Guid(00e45cb44ac568a488a84a77193479d4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Demo/Images/CobraRobot_Keymapping_image.png using Guid(00e45cb44ac568a488a84a77193479d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a27dd6df9b7e9900edf5ae5a5a6a9e7') in 0.072380455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/0.png
-  artifactKey: Guid(668a82aa9acd9644a92296675f91fb29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/0.png using Guid(668a82aa9acd9644a92296675f91fb29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffd635d3a729126112715be2b4f7f8a8') in 0.043585445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Deep Caves Assets/Cave 1/Biome1Bg4.png
-  artifactKey: Guid(dc4dd45e720849344907663af936b320) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 1/Biome1Bg4.png using Guid(dc4dd45e720849344907663af936b320) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '923a62c10d9070d9858f4e5a80d1fe2d') in 0.014924735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Martial Hero/Sprites/Take Hit.png
-  artifactKey: Guid(dafba786f4f5b8242bc098edbf954165) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Martial Hero/Sprites/Take Hit.png using Guid(dafba786f4f5b8242bc098edbf954165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05df476f454b0659bdc4733a87e3546c') in 0.034749059 seconds
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.637 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1330ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6697 unused Assets / (4.5 MB). Loaded Objects now: 7411.
+Memory consumption went from 150.1 MB to 145.6 MB.
+Total: 7.760500 ms (FindLiveObjects: 0.581600 ms CreateObjectMapping: 0.660300 ms MarkObjects: 4.211400 ms  DeleteObjects: 2.305700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.949343 seconds.
+  path: Assets/Background/BACKGROUND.PNG
+  artifactKey: Guid(278fb5bd79f3d2546bae1924e54be93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/BACKGROUND.PNG using Guid(278fb5bd79f3d2546bae1924e54be93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91eb66f78cc1ac989bf3295889d06cc') in 0.1379968 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Evil Wizard 3/Animations/Idle.anim
-  artifactKey: Guid(ee0a7ebd79d7b30459cd6f8d1f4e946a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Idle.anim using Guid(ee0a7ebd79d7b30459cd6f8d1f4e946a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d0713d59d1e86fbf02fadc6e5462697') in 0.013749433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0000.png
-  artifactKey: Guid(83e65291229adc847ade62eb33b3caab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0000.png using Guid(83e65291229adc847ade62eb33b3caab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c161f6dc17811db961cd809af7af6532') in 0.030295353 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Background/SKY_NO_SUN.PNG
+  artifactKey: Guid(2f87a8dccd4f7dd4ead1a62a9af05fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/SKY_NO_SUN.PNG using Guid(2f87a8dccd4f7dd4ead1a62a9af05fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b862694d93d9deb9fd927548d1c7dd4') in 0.0689012 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/6.png
-  artifactKey: Guid(ba56be3c4e5012e42a0e59dd65a8c992) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/6.png using Guid(ba56be3c4e5012e42a0e59dd65a8c992) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebf4475d13267e5498f228ade358fc82') in 0.056000284 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Background/IMG_0181.PNG
+  artifactKey: Guid(7dcb7b14c07061749a6fc77570b9a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/IMG_0181.PNG using Guid(7dcb7b14c07061749a6fc77570b9a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63b79c6e1ac1ee3ed2d17a66c025abec') in 0.036389 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/17.png
-  artifactKey: Guid(366c709e790dcba44ab8c6028a37ed02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/17.png using Guid(366c709e790dcba44ab8c6028a37ed02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02682123e866b9646084dbdd96c13046') in 0.047375994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/9.png
-  artifactKey: Guid(757f0c6356dd9144e906c5f02ae62db3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/9.png using Guid(757f0c6356dd9144e906c5f02ae62db3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df0e79c54c79dc8033b76d3d6e83ab60') in 0.046538682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/1.png
-  artifactKey: Guid(e04f61f1e20320c42a4791ce2752501e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/1.png using Guid(e04f61f1e20320c42a4791ce2752501e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd240e6c9ec264e8eb925a277a8b9f50a') in 0.049650761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/0.png
-  artifactKey: Guid(18c89f1cba7b7a74284284527b8566f5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/0.png using Guid(18c89f1cba7b7a74284284527b8566f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28ae2cb7216e47c9fd14b86d1c2eaab1') in 0.053206433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/4.png
-  artifactKey: Guid(5819496f863e454448f51408cda34be8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/4.png using Guid(5819496f863e454448f51408cda34be8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd01841c9442934b11c0902cabf8a34f9') in 0.045726538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/2.png
-  artifactKey: Guid(aad251a2991c2cf49a63686a7c77a55f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/2.png using Guid(aad251a2991c2cf49a63686a7c77a55f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03ab39b0dba25a530947e42ac9ce375f') in 0.044765714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/0.png
-  artifactKey: Guid(96aa204e17d61244dadae3e99cf41ff8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/0.png using Guid(96aa204e17d61244dadae3e99cf41ff8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0494a711429a7370a45d978461f3c5a') in 0.043926577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/5.png
-  artifactKey: Guid(b075122795e65f5439b2944a0e02b4bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/5.png using Guid(b075122795e65f5439b2944a0e02b4bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f5e94256a4058dd1ed4fba03c442a8b') in 0.055334106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/1.png
-  artifactKey: Guid(4e37071f49d0c4041a489e0943d7a35f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/1.png using Guid(4e37071f49d0c4041a489e0943d7a35f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1eb46c4922849f692fbcbb4775f36092') in 0.053498749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/11.png
-  artifactKey: Guid(5ed3ea805c6727d48abc4b82c2788f27) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/11.png using Guid(5ed3ea805c6727d48abc4b82c2788f27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68f9b549c9d6e8256e159c5384e2cb07') in 0.083292788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/6.png
-  artifactKey: Guid(cf5f4fc583e57e349ad9dcd15d67c0bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/6.png using Guid(cf5f4fc583e57e349ad9dcd15d67c0bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea71072a366eba820d849be6a48c2a8d') in 0.117297222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/8.png
-  artifactKey: Guid(4f08fb6efa4b0e84b817491310415620) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/8.png using Guid(4f08fb6efa4b0e84b817491310415620) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20895192a4bea0d47fd6fe15de9ded0b') in 0.052913547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/11.png
-  artifactKey: Guid(d2ae0022909e0714c9bb4d9856bfd5fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/11.png using Guid(d2ae0022909e0714c9bb4d9856bfd5fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6abe86457dc6d1cbd7707b10b4d19a8') in 0.167480879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/8.png
-  artifactKey: Guid(79a7eb9881d168144a357c1e81bdf549) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/8.png using Guid(79a7eb9881d168144a357c1e81bdf549) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a645bcb666e8f3f7f8f4a0b9a65d8370') in 0.052660867 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/0.png
-  artifactKey: Guid(d8f17db048dca424ba51decf1c9d8baa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/0.png using Guid(d8f17db048dca424ba51decf1c9d8baa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1dd5c7bd839cb6c848f61ddb0f4bc02') in 0.06453921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/1.png
-  artifactKey: Guid(e3a12a2ea73fc4f4db7d2026025973d4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/1.png using Guid(e3a12a2ea73fc4f4db7d2026025973d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb893918149d9babb649769a7d6f285f') in 0.164458567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/3.png
-  artifactKey: Guid(7760aa425ec4a6643a857a197ee40248) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/3.png using Guid(7760aa425ec4a6643a857a197ee40248) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a28dbc04166296cbf12190206f0968ab') in 0.056630874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/0.png
-  artifactKey: Guid(4944d5e39b1d14648ba4f1042e222d03) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/0.png using Guid(4944d5e39b1d14648ba4f1042e222d03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1938b1606613de64bdaba9f7eacf20ca') in 0.047917507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/3.png
-  artifactKey: Guid(c8b4f0bde7bbfe54b951dbc62754459e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/3.png using Guid(c8b4f0bde7bbfe54b951dbc62754459e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b71ce6e1310e81e79ca0782b514d30d') in 0.038793646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/0.png
-  artifactKey: Guid(5c7a85af1e92291409e04fb085cf6fb1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/0.png using Guid(5c7a85af1e92291409e04fb085cf6fb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2318407f1f26dc84edbc6e01dfd0e896') in 0.043892184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/3.png
-  artifactKey: Guid(8b0237570174a594cad6ec163336ef1e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/3.png using Guid(8b0237570174a594cad6ec163336ef1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3682cc8805dcfc70e6c0f0894418365a') in 0.058914007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/10.png
-  artifactKey: Guid(8f45f0324b8212c43b271648a857b533) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/10.png using Guid(8f45f0324b8212c43b271648a857b533) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abe9846a1b3748036f7aa876432b99fc') in 0.346584528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/12.png
-  artifactKey: Guid(19c1bbb9192b11147a7eb70ee8327f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/12.png using Guid(19c1bbb9192b11147a7eb70ee8327f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5c84c16bd1c57e663866d8dea319160') in 0.058749978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/13.png
-  artifactKey: Guid(544050d3e71ccae49b48f4bf39b6fdb4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/13.png using Guid(544050d3e71ccae49b48f4bf39b6fdb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd97b12a534d450b1ec58737842d5de7b') in 0.034160244 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/16.png
-  artifactKey: Guid(1485f9029c53b9443be24889d91ca9d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/16.png using Guid(1485f9029c53b9443be24889d91ca9d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2542b2fdfad286caf340f6e037c1926f') in 0.037634175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/4.png
-  artifactKey: Guid(af0f60fdd94c7c74cb1a25ab5d10ecf9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/4.png using Guid(af0f60fdd94c7c74cb1a25ab5d10ecf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '041750f2f07d95d85e19ba7078642a79') in 0.039506744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/7.png
-  artifactKey: Guid(d2fd4e6729671074eb2127b5528a5285) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/7.png using Guid(d2fd4e6729671074eb2127b5528a5285) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7df18e548341737924691042d643745c') in 0.072642284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/8.png
-  artifactKey: Guid(12cbad878daa48c498ae72c84b85741f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/8.png using Guid(12cbad878daa48c498ae72c84b85741f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb78562a464deb96503d77b6bc950714') in 0.074883705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/8.png
-  artifactKey: Guid(47dbc9878096b9a429f974a2f236ec0e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/8.png using Guid(47dbc9878096b9a429f974a2f236ec0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c771fff2b5c076f7a5c27af59b888bd') in 0.056599251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/14.png
-  artifactKey: Guid(0d220f64dcccec242b0b4baf10287755) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Idle/14.png using Guid(0d220f64dcccec242b0b4baf10287755) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc6b9b87761fe88f55b586edd94d83b5') in 0.061828357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/16.png
-  artifactKey: Guid(a6de04cf5c040b141a7c94ecc6f1662c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/16.png using Guid(a6de04cf5c040b141a7c94ecc6f1662c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa5abb5568588e5dfcedebf3aebb1da8') in 0.042624194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/4.png
-  artifactKey: Guid(971435f0b7f8b8842ae08caaee9729b6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/4.png using Guid(971435f0b7f8b8842ae08caaee9729b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e3291a1211ae28ec8510981d9aa9fe5') in 0.056111426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/10.png
-  artifactKey: Guid(e7328372a46d04c4a8b591639f0c338a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/10.png using Guid(e7328372a46d04c4a8b591639f0c338a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '368e815ee72ce0f3304dc3245b07d37b') in 0.064054675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/4.png
-  artifactKey: Guid(92fa429621664a1429ca1eedf315745f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/4.png using Guid(92fa429621664a1429ca1eedf315745f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53846f15c893f428cfd8cdc242be4e95') in 0.072896984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/3.png
-  artifactKey: Guid(e8494fdeee0addc459a31d4ad0c2781c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/3.png using Guid(e8494fdeee0addc459a31d4ad0c2781c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '061ab8903baaf637f9cd421d842c0e1f') in 0.26546504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/2.png
-  artifactKey: Guid(b4294a152b1aa1f4cbed8cd9257bc8fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Falling/2.png using Guid(b4294a152b1aa1f4cbed8cd9257bc8fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea38361076b94c66127bc4d2ff01a392') in 0.051936036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Jumping/0.png
-  artifactKey: Guid(d191da5320d674348aa17d2efe658bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Jumping/0.png using Guid(d191da5320d674348aa17d2efe658bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1457f4d89853e48510f7f12ebfa448f') in 0.043687894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/5.png
-  artifactKey: Guid(77544483d018e2842999e91948384227) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/5.png using Guid(77544483d018e2842999e91948384227) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f2eb2cb417e17721d5ff57cb585d7cd') in 0.057073284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/7.png
-  artifactKey: Guid(4c2cff764f412d443a14cfcbda5e1b99) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/7.png using Guid(4c2cff764f412d443a14cfcbda5e1b99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bc2d7454e8dcc416bc425f8f8e81d74') in 0.054078958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/2.png
-  artifactKey: Guid(4df59e2f58db2ef4dba815fe25053975) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/2.png using Guid(4df59e2f58db2ef4dba815fe25053975) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5634a83edf2d2cf59af59d0641dc46df') in 0.050657871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/4.png
-  artifactKey: Guid(291507f3164ca6448b877e8d09a30e58) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/4.png using Guid(291507f3164ca6448b877e8d09a30e58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ab4f80ebb9b78fc8dd57899702c4f98') in 0.036115621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/1.png
-  artifactKey: Guid(bda6e394410b8dd448d9e1ac5bdcc7cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Falling/1.png using Guid(bda6e394410b8dd448d9e1ac5bdcc7cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59cb562dc913e17cafea7d7a77ab4dd4') in 0.045753954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Jumping/5.png
-  artifactKey: Guid(a42ae8b54d14bc5498a5a99217807244) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Jumping/5.png using Guid(a42ae8b54d14bc5498a5a99217807244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bb2dbfc7bfd10f2dc22a1b4d3c83164') in 0.036463946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/1.png
-  artifactKey: Guid(2e1d821560f14694eb678dff8162ab54) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/1.png using Guid(2e1d821560f14694eb678dff8162ab54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ecbeeaf12f21f1c111346391d58f396') in 0.034218347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/13.png
-  artifactKey: Guid(9f531174995fdec4497541f25d30e1fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/13.png using Guid(9f531174995fdec4497541f25d30e1fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd87c1f54a3abac30be72bef40e7ea901') in 0.035693871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/14.png
-  artifactKey: Guid(8f492d820cfdaf744af5b91d3e5c4466) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/14.png using Guid(8f492d820cfdaf744af5b91d3e5c4466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d53ac62b6882818c546ff0bbd33429f') in 0.036718071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/8.png
-  artifactKey: Guid(d249ff6c10469d847b9f24ffc0abebbd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/8.png using Guid(d249ff6c10469d847b9f24ffc0abebbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ef7f7ad51988470fa34e37657573cc5') in 0.044484514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/6.png
-  artifactKey: Guid(286135945307b0a4285d25820f312d19) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/6.png using Guid(286135945307b0a4285d25820f312d19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '535efed9b60edbbc2ccc2858dce4a1dd') in 0.038898861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/7.png
-  artifactKey: Guid(3f75d316740d01a4181854909b778121) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/7.png using Guid(3f75d316740d01a4181854909b778121) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2221213bda2b23447ac7730e67cc47c6') in 0.032216248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/2.png
-  artifactKey: Guid(05f4211c3bbb0c84986926c519791f88) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Whip/2.png using Guid(05f4211c3bbb0c84986926c519791f88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d863c5ddf5752427c31990e6ee0a13a') in 0.034302457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/3.png
-  artifactKey: Guid(222a764cede10634ea2ec094acbf9c5f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/3.png using Guid(222a764cede10634ea2ec094acbf9c5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe52d18a0117e0cdcb9489ee794c4019') in 0.039135203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/9.png
-  artifactKey: Guid(1504d0aaa3960204f97e9a7f614a2adb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/9.png using Guid(1504d0aaa3960204f97e9a7f614a2adb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6b8f0e349d137d113b7b2f32a7e2d40') in 0.038362954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/6.png
-  artifactKey: Guid(7dc545e9d4918724a8b3e9795196ecab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/6.png using Guid(7dc545e9d4918724a8b3e9795196ecab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c178abbb619289fd96f2e298a649ba2') in 0.038089483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/5.png
-  artifactKey: Guid(403e3197f6d674245bd2f8b2a721f380) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/5.png using Guid(403e3197f6d674245bd2f8b2a721f380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88491c7882d2a433fcb4b4ed6e71e4a5') in 0.03300382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/5.png
-  artifactKey: Guid(81a7b99d0d9067043a88b210252b8f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/5.png using Guid(81a7b99d0d9067043a88b210252b8f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8c27f2aebbe8ec328a9b652137338df') in 0.169921769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/4.png
-  artifactKey: Guid(d198f6fa24e880d418bf85d147ac707e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/4.png using Guid(d198f6fa24e880d418bf85d147ac707e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '563f440e886971ab11f324e0eb05e7a6') in 0.039218049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/3.png
-  artifactKey: Guid(87e6d33229ae2c54bac997a13aa88463) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/3.png using Guid(87e6d33229ae2c54bac997a13aa88463) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e376daa4921cbde746811edd9359c12c') in 0.043748816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/1.png
-  artifactKey: Guid(4ec67e4e05bc0fd478b6377a7996d2b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/1.png using Guid(4ec67e4e05bc0fd478b6377a7996d2b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8fb80b7fccacf4defc3f407cac08e9d') in 0.067355112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/3.png
-  artifactKey: Guid(bf69b02fb0147664c9c8515bc61259e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Idle/3.png using Guid(bf69b02fb0147664c9c8515bc61259e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93e661625b547a64e0886f815d9ed06d') in 0.032242343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Evil Wizard 3/Animations/Death.anim
-  artifactKey: Guid(82f5c6585dd7fd448b3e5fdc99db7bff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Animations/Death.anim using Guid(82f5c6585dd7fd448b3e5fdc99db7bff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21e24c9dd6933ac44523a424395e9d43') in 0.007995414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0008.png
-  artifactKey: Guid(ca6a14f3f167f314eb7cbf1753131070) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0008.png using Guid(ca6a14f3f167f314eb7cbf1753131070) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1ad9c6e20998ef6b9a9556ae8f88c03') in 0.014608368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Demo/Scripts/CharacterController.cs
-  artifactKey: Guid(5809a588feafb0547b509251ce13c299) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Demo/Scripts/CharacterController.cs using Guid(5809a588feafb0547b509251ce13c299) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40f987090b65580885f6227fc62228f4') in 0.004352047 seconds
+  Time since last request: 2.270798 seconds.
+  path: Assets/Background/ExampleScene.unity
+  artifactKey: Guid(4a0336975060d63449cd9587b5514976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/ExampleScene.unity using Guid(4a0336975060d63449cd9587b5514976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67406f05a3eb7f9b140f7504f4b8d21e') in 0.0008152 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Idle.anim
-  artifactKey: Guid(5f27e1881c640694f816a3e3d77d4f04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Idle.anim using Guid(5f27e1881c640694f816a3e3d77d4f04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b05966a3e969ae758004b43179ebe3fb') in 0.007468132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 8.094231 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2a9af5626751a6c3c4104f295fd9f1') in 0.0574823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Running.anim
-  artifactKey: Guid(6d23831aa4058ba43bd8344ad9511d3d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Running.anim using Guid(6d23831aa4058ba43bd8344ad9511d3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05aab484448a78cd6afd15e8fe30a089') in 0.006385879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 4.426659 seconds.
+  path: Assets/Martial Hero/Demo
+  artifactKey: Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Demo using Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3c2843c71a51f4f3e4613a0a61cbee') in 0.0008872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_3.png
-  artifactKey: Guid(e53aec077838ff84993fe48245389698) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBgOrange_3.png using Guid(e53aec077838ff84993fe48245389698) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3173c4f55222343d7462cf962e2b9ba8') in 0.019815318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 6.079698 seconds.
+  path: Assets/Martial Hero/Sprites/Attack1.png
+  artifactKey: Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Attack1.png using Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '521376b754ffbff57a59642c4b63bb51') in 0.0573447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/1.png
-  artifactKey: Guid(d9d25bec81e637c41807e63c966f0e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/1.png using Guid(d9d25bec81e637c41807e63c966f0e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81436eec5473e45b5b04a8323ea63e1f') in 0.033426253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000015 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit.png
+  artifactKey: Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit.png using Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3590ebc94b67019ddfca3570f439af23') in 0.0330737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/11.png
-  artifactKey: Guid(5587d675ac1c2084ca51dc1a322b5926) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Running/11.png using Guid(5587d675ac1c2084ca51dc1a322b5926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd0853b5aca847c5f86a1e50a6b7e4e') in 0.032465634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000015 seconds.
+  path: Assets/Martial Hero/Sprites/Run.png
+  artifactKey: Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run.png using Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec4bfefc853656558912fe93187edfb') in 0.0437119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/2.png
-  artifactKey: Guid(e7cb4e5eee1a05343958c16a4e4b5ae9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/2.png using Guid(e7cb4e5eee1a05343958c16a4e4b5ae9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5614a265c000d82da322c45b2eae33bc') in 0.035086584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000015 seconds.
+  path: Assets/Martial Hero/Sprites/Jump.png
+  artifactKey: Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Jump.png using Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c17dce25d059996b363116bcf5fdf99') in 0.0371692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0024.png
-  artifactKey: Guid(e2e5132a2e920494abd9f898ad7d3473) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0024.png using Guid(e2e5132a2e920494abd9f898ad7d3473) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e3e8ee3b5c2897cd17452297ebc7413') in 0.013722578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Animations/Wooden Aarakocra Idle Animation.anim
-  artifactKey: Guid(10e64baddea2bf5409f8b1c829dace2b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Animations/Wooden Aarakocra Idle Animation.anim using Guid(10e64baddea2bf5409f8b1c829dace2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3f3b420c09f43dfa3ab92f40a9b1f14') in 0.005709227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/13.png
-  artifactKey: Guid(ab6ff06cd297c684e9b95c574c5ed64d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/13.png using Guid(ab6ff06cd297c684e9b95c574c5ed64d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '118fba7646f28bbf2b448d5126da4210') in 0.042798926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Distant Forest Assets/Taiga Forest/TaigaPack1.png
-  artifactKey: Guid(7a7cbe6c4a73a9a45b0f200d31deb971) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Taiga Forest/TaigaPack1.png using Guid(7a7cbe6c4a73a9a45b0f200d31deb971) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e277649ebf5922733b781453802c9a5') in 0.016774254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/0.png
-  artifactKey: Guid(1a15197a49959a34cb20fee03dfe2c6b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Shooting/0.png using Guid(1a15197a49959a34cb20fee03dfe2c6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f6938d2627fb48538e6f79e4ad6b68b') in 0.038444695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/0.png
-  artifactKey: Guid(46ce0913b79683f4aa12f9febf7fb879) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Shooting/0.png using Guid(46ce0913b79683f4aa12f9febf7fb879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '332c431f88e5cccb63630bf27d90144a') in 0.038613937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/10.png
-  artifactKey: Guid(d0f11fac26591084a83c3cae129ddd3d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/10.png using Guid(d0f11fac26591084a83c3cae129ddd3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7d738f243800b181227081f59b485e1') in 0.031946883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Demo/Prefabs/CobraRobot_Hero.prefab
-  artifactKey: Guid(a454f6891c7502d4f98dbabdde56ad91) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Demo/Prefabs/CobraRobot_Hero.prefab using Guid(a454f6891c7502d4f98dbabdde56ad91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2961ee7a734314d4158e443b0fa8316') in 0.067852264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0012.png
-  artifactKey: Guid(9b156f346cfe58d4ca41f46b42b18119) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0012.png using Guid(9b156f346cfe58d4ca41f46b42b18119) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbb7fa08a41ae699fd2e53eb23750cb0') in 0.013336159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/1.png
-  artifactKey: Guid(c232d5ce311f1744e8949cc9301e6b12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/1.png using Guid(c232d5ce311f1744e8949cc9301e6b12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dd6b4b1822b4ee517695b68a1bb8d41') in 0.034950351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/10.png
-  artifactKey: Guid(2d0e896dd7076624b88dd1013577f1a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Whip/10.png using Guid(2d0e896dd7076624b88dd1013577f1a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67bbd41b2f7a70fab6e47e8480486adc') in 0.051765056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/5.png
-  artifactKey: Guid(c35afcfd16e6ca343866912c09057aed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/5.png using Guid(c35afcfd16e6ca343866912c09057aed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73007d44911951779ce2fe49251f48d0') in 0.033282451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/10.png
-  artifactKey: Guid(23e582e9041c7ba4cac1b78b953e379e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/10.png using Guid(23e582e9041c7ba4cac1b78b953e379e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '118971d5ce96f101cac1e0a9bda39a3e') in 0.037942046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/4.png
-  artifactKey: Guid(1f5d56eda01f14d40b7d370ffe7eba49) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Attack_Punch/4.png using Guid(1f5d56eda01f14d40b7d370ffe7eba49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1460441865acfb36c831a2aef6e19893') in 0.035514694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0020.png
-  artifactKey: Guid(1636c53b6e2c7e547b5635e75969f220) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0020.png using Guid(1636c53b6e2c7e547b5635e75969f220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db8c669488e36f3b6ae93ad8135a670') in 0.016131972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/2D Pixel art pack - Rousette/Art/rousette1.png
-  artifactKey: Guid(2434780e413500a43ad0570e2b007be0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2D Pixel art pack - Rousette/Art/rousette1.png using Guid(2434780e413500a43ad0570e2b007be0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdc9dc149d91192f18d61733caed77ff') in 0.070133543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Falling.anim
-  artifactKey: Guid(7b8483086810a3e45b57930ad0cfa95a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Falling.anim using Guid(7b8483086810a3e45b57930ad0cfa95a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8be5fde9bd79f865eee6c49b65296d58') in 0.005456692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Dead.anim
-  artifactKey: Guid(a182152ceac0a9f4bb308bea8bb75eb0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/EnemySkin/Dead.anim using Guid(a182152ceac0a9f4bb308bea8bb75eb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a594bef17639a2cf450bc0ad49bf6dd') in 0.00622189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/2.png
-  artifactKey: Guid(fdad4d4180bbc4347a8ece06de8bfd01) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Running/2.png using Guid(fdad4d4180bbc4347a8ece06de8bfd01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9bf5f8dacbcec9e48b6fedffd503a6a') in 0.04097446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Fall.png
-  artifactKey: Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Fall.png using Guid(862a51da390209a4faea1934a3c2c8d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc821fbdd6c873c4e54e7a625ed21862') in 0.015580972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/6.png
-  artifactKey: Guid(2f9c69d28913e794a9de9f6638074caa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Damaged/6.png using Guid(2f9c69d28913e794a9de9f6638074caa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb73b5e2612e218d9703ff8af5178d0a') in 0.034042446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Deep Caves Assets/Cave 1/Biome1Bg1.png
-  artifactKey: Guid(46ebe6a21d5716d40acddb275687c7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Deep Caves Assets/Cave 1/Biome1Bg1.png using Guid(46ebe6a21d5716d40acddb275687c7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21decbe37de834d9a9c6d2aaf2ab1642') in 0.013300716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Evil Wizard 3/Sprites/Jump.png
-  artifactKey: Guid(c2fa69c311e8ddd40805d213dfb292f8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Evil Wizard 3/Sprites/Jump.png using Guid(c2fa69c311e8ddd40805d213dfb292f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff53215ec1c6a6f8771bee14944578c2') in 0.015839557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0028.png
-  artifactKey: Guid(53a675b353690124f9273f95bec694f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0028.png using Guid(53a675b353690124f9273f95bec694f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d85a2834c99f9c49935e0f33e87c089') in 0.018445042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/11.png
-  artifactKey: Guid(bd7e86eab087b4c4fa98aa26f6b946fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/11.png using Guid(bd7e86eab087b4c4fa98aa26f6b946fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16174470798138b3ebfaebce059a535e') in 0.039886666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/9.png
-  artifactKey: Guid(2451b6dda06ab4b489faaccd3a025240) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/HeroSkin/HeroSkin_HighRes_Dead/9.png using Guid(2451b6dda06ab4b489faaccd3a025240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78ce7bd1817b7bfe44b1daffe99196c6') in 0.031177427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/5.png
-  artifactKey: Guid(6b380b8b1825fc043ba0c5ba2f2228a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Damaged/5.png using Guid(6b380b8b1825fc043ba0c5ba2f2228a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5ac99025e5f8d6c556e0bb442cb5738') in 0.042480918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Jumping.anim
-  artifactKey: Guid(f3d9c400636557b4daf935f75260f495) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Animations/HeroSkin/Jumping.anim using Guid(f3d9c400636557b4daf935f75260f495) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24d3c9b33360fea25fc8158e19c50118') in 0.006143816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/8.png
-  artifactKey: Guid(4d306bb1c55f4ad419b1177409fd6e66) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Attack_Punch/8.png using Guid(4d306bb1c55f4ad419b1177409fd6e66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83daaec65f9b2233c6d45ea3ef5321f9') in 0.035407739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0004.png
-  artifactKey: Guid(d6a6d0b1934300d44b5c436d667c6405) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0004.png using Guid(d6a6d0b1934300d44b5c436d667c6405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03cb70ec61db4d91318af46fa616facc') in 0.020556402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Distant Forest Assets/Swamp Forest/SwampBg_2.png
-  artifactKey: Guid(949b4f7a4a7db7a488c410a490d24635) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Distant Forest Assets/Swamp Forest/SwampBg_2.png using Guid(949b4f7a4a7db7a488c410a490d24635) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07a10af071edaa4beb9dc84285662211') in 0.024431317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/1.png
-  artifactKey: Guid(c17c78fe3d0e84f43b3d7dabe6aa3b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DouglasAvila/CobraRobot/Sprites/CobraRobot/EnemySkin/EnemySkin_HighRes_Dead/1.png using Guid(c17c78fe3d0e84f43b3d7dabe6aa3b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e7c8d1da9b31702894780e170569eef') in 0.04215725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000022 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit - white silhouette.png
+  artifactKey: Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit - white silhouette.png using Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48005eb3071c9ea4665c71507dfec8df') in 0.0294129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
